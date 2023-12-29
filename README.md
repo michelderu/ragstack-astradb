@@ -16,7 +16,8 @@ This Enterprise Sidekick is build specifically as a multi-tenant, reusable and c
     - Through PDFs and Text files
     - And through URLs, scraping web pages automatically
 2. The Sidekick will turn pictures into relevant prompts
-3. As there is **No AI Without Data** the Chatbot has a laserfocus on the integration of the Astra DB Vector Store with the OpenAI Chat Model with the following options:
+3. Integration with Langsmith for Tracing of queries, prompts and context from the Astra DB Vector Store
+4. As there is **No AI Without Data** the Chatbot has a laserfocus on the integration of the Astra DB Vector Store with the OpenAI Chat Model with the following options:
     - Enable/Disable Chat Memory
     - Set Top-K for Chat Memory
     - Delete the Chat Memory at any given time
