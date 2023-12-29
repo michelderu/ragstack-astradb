@@ -1,0 +1,34 @@
+Martin Brodbeck
+CTO at Priceline
+Martin (Marty) Brodbeck joined Priceline as Chief Technology Officer in 2019. Marty is responsible for all product engineering, infrastructure, data and technology operations for Priceline.
+
+Marty brings more than 20 years’ worth of experience to Priceline, having led technology teams within the digital commerce, financial, pharmaceutical, biotechnology, consumer products, and media industries. Throughout his career, he has led companies through mobile, cloud, big data, cyber security, infrastructure, content and product engineering changes that have driven new revenue, cost savings and productivity gains across enterprise companies.
+
+At Priceline, Marty has spearheaded the company’s digital transformation, leading a product migration and instituting a new micro-services architecture powered by the cloud. Additionally, he developed a new data platform that powers the brand’s marketing and consumer capabilities, which have been essential to the growth of the company.
+
+Prior to Priceline, Marty was CTO at Shutterstock, where he oversaw product engineering, infrastructure mobile, data and security. Marty helped transform the company’s product technology platform and architecture, enabling the company to accelerate growth across its e-commerce business.
+
+Previously, Marty served as CTO of Sterling Talent Solutions, where he drove all product engineering, infrastructure, security and operations functions. He also served as CTO of Pearson PLC, where he helped transform the company from a traditional print publisher to a technology-led digital business. He was also SVO and CTO at Diageo, as well as Chief Architect and CTO for Worldwide Technology Engineering at Pfizer.
+
+In 2022, Marty was named one of the top CIOs by Insider and appeared on Forbes’ prestigious CIO Next List of the top 50 tech leaders redefining the CIO role. He holds a BA from the University of Richmond and an MS from the Stevens Institute of Technology. Marty lives in Westchester, NY, with his wife Blakely and his children Connor and Charlotte.
+
+Priceline
+
+ABOUT THE COMPANY
+, part of Booking Holdings Inc., has been a leader in online travel for twenty-five years. Priceline’s proprietary deals technology pairs negotiation with innovation to analyze billions of data points to generate deep discounts for customers they can’t find anywhere else. Travelers have access to millions of hotels, flights, alternative accommodations, rental cars, cruises, vacation packages and experiences from trusted brands in over 116 countries around the world, 24/7 customer service and incremental savings when becoming a Priceline VIP. By making affordable travel within reach for all, Priceline helps millions of customers each year be there for the moments that matter to them. Because where your happy place meets your happy price, that place is Priceline.
+
+Nominate a Digital Champion today!
+Transcript
+My job is to create a culture and environment and engineering where people can be at their best so being a Digital Champion for me means enabling my team to perform at their highest level and giving them opportunities that I was afforded in my career.
+
+Hi, I’m Marty Brodbeck. I'm the CTO of Priceline. Priceline is an online travel agency and e-commerce company. We’ve been around for over 20 years, providing the best travel deals on the planet. Since we are a digital-first business, it is my job to enable technology to connect with the business to drive our business strategy.
+
+Real-time data infrastructure is important to e-commerce companies like us because it really provides the backbone of information for how we search, price, book, and tailor our products to customers. Now more than ever as folks move to the cloud, companies are capturing multiple sets of data events a second and more importantly need to use those insights to provide better experiences for our customers.
+
+More importantly, the data we capture from tools like DataStax help us price, tailor, and capture more customers through our innovative products.
+
+When we were going through our Google modernization efforts for our infrastructure, it was not only important that we find a partner and provider that could provide real-time data capabilities for us, but that also provided operational excellence in terms of managing and supporting our data infrastructure. That's where we felt Astra DB and DataStax really fit the magic quadrant for what we were looking for in a partner.
+
+As part of our data modernization efforts in the company, we’ve been able to launch a brand new customer data platform that really powers our loyalty program called VIP. The VIP program is very important to Priceline because it allows us to provide a service to our customers that they couldn’t provide before as a company.
+
+Now we have an opportunity to use all that rich information to start building out very robust machine learning models such as anomaly detection or tailor personalization for our customers, or recommendations and pricing, all powered by the real-time data that they are capturing today.

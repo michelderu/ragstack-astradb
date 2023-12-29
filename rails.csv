@@ -1,0 +1,13 @@
+username,key,value
+postnl,1,Wat is PostNL?
+postnl,2,Wat nou als ik veel pakketten moet versturen?
+postnl,3,Vertel me meer over de haalservice
+postnl,4,Schrijf een mail voor een prospect over de haalservice
+postnl,5,Wat zijn de duurzaamheidsvoordelen van de haalservice?
+datastax,1,What is DataStax?
+datastax,2,What is Vector Search?
+datastax,3,Tell me more about why Astra DB is the best!
+datastax,4,Write an email for a prospect about Astra DB
+datastax,5,What advantages does Astra DB offer for Generative AI?
+datastax,6,What strategies exits for meaningful agent interaction
+datastax,7,How can I use Astra DB in a RAG application?

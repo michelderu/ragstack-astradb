@@ -1,0 +1,54 @@
+Vector Search | DataStax
+Astra platform
+Astra DB Vector is the only vector database for building production-level AI applications on real-time data.
+
+Build accurate AI with real-time data and streaming.
+Astra DB Vector is for mixed workloads with vector, non-vector, and streaming data.
+
+Only Astra DB Vector gives you simultaneous query/update with ultra-low latency.
+
+Build accurate AI with real-time data and streaming.
+
+Support your entire app, not just vector search.
+You’ll need to use your vector, tabular, and streaming data for accurate LLM replies.
+
+Astra DB Vector is a natively unified database for your entire application. Standalone vector databases require stitching and moving data from system to system.
+
+Support your entire app, not just vector search.
+
+Deploy production-level security and compliance.
+Protect users and data with the depth enterprise security features and compliance certifications for production AI.
+
+Standalone vector databases were designed for simple applications and workloads - not for enterprise-scale requirements.
+
+Deploy production-level security and compliance.
+
+Developer-friendly APIs, pricing and community support.
+Code today and launch tomorrow with vector-native APIs and ecosystem integrations.
+
+Astra DB gives developers the industry’s most generous developer plans, APIs, community support, and choice of deployment options.
+
+Developer-friendly APIs, pricing and community support.
+
+Developers
+Build real-time, Generative AI Apps on the most proven, most powerful database
+Get hands-on experience with actual code examples and the opportunity to try it out on your local machine.
+
+CREATE TABLE my_vectors (my_id text PRIMARY KEY, my_vector vector<float, 3>);
+Examples
+Generate real-time AI applications with Vector Search, empowered by advanced Language Models (LLMs) and Chat AI Agents.
+
+Q&A Search with LangChain
+Perform a text similarity search on HuggingFace datasets using Astra DB, LangChain and CassIO.
+
+View Quickstart
+Integrations
+Enhance your AI/ML applications and ecosystem with contextual data insights and automations.
+
+
+CassIO
+Library seamlessly connects Apache Cassandra and Generative AI frameworks like LangChain
+
+Explore CassIO
+Join the Community
+Plug into the real-time conversation on the community’s Planet Cassandra Discord channel.

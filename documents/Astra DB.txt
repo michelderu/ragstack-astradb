@@ -1,0 +1,66 @@
+Astra DB | DataStax
+Astra DB
+New vector search capabilities enable complex, context-sensitive searches across diverse data formats for use in Generative AI applications, powered by Apache Cassandra®.
+
+Benefits
+Move from AI Experimentation to AI Production
+Build in any language
+
+Gen AI for the Enterprise: Secure, Scalable, Compliant and 5X cheaper 
+Scale to petabytes of data for the most demanding AI apps, with world-class performance at a fraction of the cost
+
+Deliver enterprise ready Generative AI through enhanced high availability delivered with data replication across regions and availability zones.
+
+Gen AI for the Enterprise: Secure, Scalable, Compliant and 5X cheaper 
+
+Secure and Compliant
+AI apps built on DataStax are enterprise ready, built on a proven stack, governed and compliant to the highest standards for PCI, SOC2, HIPAA, ISO 27001 and more.
+
+Secure and Compliant
+
+Integrate with Vertex AI
+Leverage the power of AI technology and the speed and scalability of Cassandra and Astra DB to fuel Generative AI projects by connecting data to Vertex AI.
+
+Integrate with Vertex AI
+
+Developers
+Accelerate development with APIs
+Stargate API gateway integrated with Astra DB makes it easier to build for maximum flexibility with the APIs of your choice.
+
+Vector Search from Any Cloud, with Global Scale and Zero Ops
+Discover how to build Generative AI apps with the scale and performance you need, without the operational burden, so you can focus on delivering code.
+
+
+Trusted by AI Leaders in Every Industry
+“Priceline has been at the forefront of using machine learning for many years. Vector search gives us the ability to semantically query the billions of real-time signals we receive as part of our checkout experience that flow back to Astra DB. We plan to use Google Cloud’s Generative AI capabilities alongside Astra DB’s vector search to power our real time data infrastructure and Generative AI experiences."
+
+Martin Brodbeck
+CTO, Priceline
+“Finding specific policies and operating procedures is time-consuming and challenging due to scattered storage across various platforms. Using Astra DB's vector search capabilities, SkyPoint can leverage these benefits to enhance its services, offering users real-time, contextual, and personalized solutions. This leads to accurate predictions and personalized healthcare outcomes at a lower cost.”
+
+Tisson Mathew
+Founder & CEO, SkyPoint AI
+“For Dataworkz, having a vector database is important to harness large language models for either question answering systems insights and intelligent summarization. Astra Vector DB is a really great addition for us.”
+
+Nikhil Smotra
+Co-Founder and CTO, Dataworkz
+“The International Maritime Organization (IMO) has set a goal of cutting carbon emissions by 50% across the global maritime industry by 2050. Our SMARTShip platform is helping make this possible by leveraging DataStax Astra DB for AI-powered, predictive analytics. By transforming thousands of data points from some 40 major equipment systems on a typical ship in real time, our solutions enable vessel operators to optimize fuel costs and other operational parameters while advancing sustainability objectives.”
+
+Praveen Viswanath
+Co-founder and Enterprise Architect, Alpha Ori Technologies
+"Financial services enterprises are unlocking the value of enriched transactional data with the Bud platform. We depend on DataStax Astra DB for the dynamic scalability and high performance we need to apply machine learning (ML) to real-time data. This means we can provide highly accurate, actionable insights for our clients and their customers."
+
+Michael Cullum
+VP of Engineering, Bud
+Migrations
+Easily migrate your data and apps with zero downtime
+Automated self-service migration
+Thinking about migrating to Astra DB? Use Zero Downtime Migration (ZDM) yourself to migrate easily to Astra DB.
+
+Automated self-service migration
+
+Get a migration assessment
+DataStax can also help you with personalized sizing and TCO and build a customized migration plan with you.
+
+Get a migration assessment
+

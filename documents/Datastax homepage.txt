@@ -1,0 +1,129 @@
+Datastax is an AI company focussing on Generative AI with their Vector Database Astra DB.
+
+DATASTAX ASTRA DB
+Vector and RAG Made Easier
+Astra DB gives developers the APIs, real-time data and complete ecosystem integrations to put accurate RAG and Gen AI apps in production - FAST.
+
+START FOR FREE
+
+ASTRA DB VECTOR
+Register now to try the new Astra DB vector experience in public preview.
+
+
+ASTRA ASSISTANTS API
+Unify data and LLMs within a single API within our Astra DB vector database.
+
+
+RAG IN PRODUCTION
+See Skypoint Cloud’s LangChain RAG app in production.
+
+
+VERCEL & ASTRA DB
+Transform Product Docs into a RAG-Powered App with Vercel and Astra DB.
+
+Real-time Vector data for RAG
+Accurate Gen AI
+Accurate Gen AI
+Vector updates available with ZERO latency delays.
+
+Production-level
+Production-level
+High performance and serverless for distributed production workloads.
+
+Proven and Trusted
+Proven and Trusted
+Built on Cassandra, choice of AI leaders, with enterprise security and compliance.
+
+DEVELOPERS
+RAG Made Easier
+Elegant APIs and powerful integrations for production-level RAG and FLARE.
+
+TRY FOR FREE
+EXPLORE EXAMPLES
+Create
+Create a table using the VECTOR type
+
+Load
+Easily load vectors like any other data type
+
+Index
+Create a Storage Attached Index which enables high performance ANN (Approximate Nearest Neighbor) search
+
+Query
+Query to perform similarity search
+
+CREATE TABLE my_vectors (my_id text PRIMARY KEY, my_vector vector<float, 3>);
+Generative AI Leaders Shaping their Industries
+Bolstering Bookings with Real-time AI and Vector Search
+Transforming Banking Through Generative AI
+Improving Operational Efficiency with GenAI
+Empowering Financial Management with Gen AI
+Banking on Astra DB to Provide Real-Time Financial Transaction Data Enrichment with AI
+Bolstering Bookings with Real-time AI and Vector Search
+Priceline leverages real-time data infrastructure and Generative AI to build highly personalized experiences for customers, combining AI with real-time vector search.
+
+LEARN MORE
+“Priceline has been at the forefront of using machine learning for many years. Vector search gives us the ability to semantically query the billions of real-time signals we receive as part of our checkout experience that flow back to Astra DB. We plan to use Google Cloud’s Generative AI capabilities alongside Astra DB’s vector search to power our real time data infrastructure and Generative AI experiences."
+
+Martin Brodbeck
+CTO, Priceline
+Transforming Banking Through Generative AI
+Capital One has consistently invested in technologies that reinvent the banking and financial services industry. Capital One leverages Generative AI  for more engaging and human-centered digital banking experiences, all facilitated by instant access to real-time data.
+
+LEARN MORE
+ “Vector search is a really important aspect of Generative AI. It has multiple applications for example, holding in personalized or contextually relevant information to those large language model interactions to make them more contextually relevant.”
+
+Kel Vanee
+VP of Machine Learning Engineering
+Improving Operational Efficiency with GenAI
+SkyPoint AI is revolutionizing senior care through its use of Generative AI healthcare solutions. The company builds real-time AI applications with vector search, empowered by advanced LLMs and AI agents.
+
+LEARN MORE
+“Finding specific policies and operating procedures is time-consuming and challenging due to scattered storage across various platforms. Using Astra DB's vector search capabilities, SkyPoint can leverage these benefits to enhance its services, offering users real-time, contextual, and personalized solutions. This leads to accurate predictions and personalized healthcare outcomes at a lower cost.”
+
+Tisson Mathew
+Founder & CEO, SkyPoint AI
+Empowering Financial Management with Gen AI
+Macquarie Bank utilizes DataStax and Bard to facilitate a customized search experience, allowing users to search for and categorize their payments, enhancing their financial management capabilities.
+
+LEARN MORE
+"In 2017, we started to use DataStax. For the first time in the bank's history, we can provide a real 360-degree view of customers—not only to internal people but also to the customers: all the products in a nice, simple view. Personalization will be more and more important. In our opinion, that will be the key differentiation.”
+
+Luis Uguina
+Chief Digital Officer, Macquarie
+Banking on Astra DB to Provide Real-Time Financial Transaction Data Enrichment with AI
+The world's leading financial companies build with Bud's simple APIs to turn messy financial data into powerful customer insights. With Astra DB, Bud has a reliable platform for its data that lets its internal team concentrate on new services and using financial data to create value for customers, rather than supporting our database infrastructure.
+
+"Financial services enterprises are unlocking the value of enriched transactional data with the Bud platform. We depend on DataStax Astra DB for the dynamic scalability and high performance we need to apply machine learning (ML) to real-time data. This means we can provide highly accurate, actionable insights for our clients and their customers."
+
+Michael Cullum
+VP of Engineering, Bud
+REVIEWS
+Hear from our customers
+Trust Radius icon
+Incentivized Review
+Astra DB has been a phenomenal tool, we have gained an organized workplace due to it. The data structure is so well maintained, and our employees rely working on Astra DB on daily basis. Its simple to use nature and cost effectiveness is an eye catcher. 
+Kartik Pujari
+Full Stack Engineer
+EDII Software Solutions
+Information Technology & Services | 51-200 employees
+Read Full Review
+Incentivized Review
+It has helped us keeping our data secured and organized. The working environment has become more efficient due to this. 
+Avinash Bhatt
+Senior Web Administrator
+EDII Software and Solutions
+Information Technology & Services | 51-200 employees
+Read Full Review
+READ ALL REVIEWS
+Ready to get started with Vector Search? 
+Deliver Generative AI apps on the world’s most powerful, most scalable vector database.
+
+TRY FOR FREE
+Trusted by leaders in every industry
+Capital One
+Macquarie
+Priceline
+Audi
+T-Mobile
+The Home Depot

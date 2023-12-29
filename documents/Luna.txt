@@ -1,0 +1,79 @@
+LUNA FOR APACHE CASSANDRA®
+Support mission-critical Cassandra deployments
+Deliver apps at scale with unparalleled expertise and support from the team behind the open-source Apache Cassandra®.
+
+CONTACT US
+BENEFITS
+Get more from Apache Cassandra
+Enterprise support from the experts
+Best practices, advice, and SLA-based support to keep your Cassandra deployment in top shape.
+
+Enterprise support from the experts
+Data management Expertise
+Develop Cassandra apps with your choice of API: . Build real-time data pipelines between Cassandra and upstream & downstream systems using .
+
+Data management Expertise
+Cloud-native support
+Expert support for K8ssandra which is a production-ready platform for running Cassandra on Kubernetes, with necessary metrics and tooling.
+
+Cloud-native support
+Zero downtime
+Experience 24x7x365 availability with Apache Cassandra’s active-everywhere architecture.
+
+Zero downtime
+Linear scalability
+Scale without compromising on performance or latency to seamlessly manage the most demanding real-time workloads.
+
+Linear scalability
+High performance
+Create real-time and highly-interactive customer experiences with blisteringly fast reads and writes.
+
+High performance
+CONTACT US
+Real-time data at work
+Wood Hole Oceanographic Institution
+Logate
+Delivering 90TB of oceanographic data with performance and reliability
+Woods Hole uses Luna to optimize their Apache Cassandra architecture, improve performance, and stabilize access to oceanographic observation data with increased reliability.
+
+LEARN MORE
+“I recommend anybody using Cassandra who is unsure if they are getting the most out of it to try Luna. It's been great.”
+
+Jeff Glatstein
+Data Delivery Manager at WHOI
+Expert support with Luna delivers a richer Cassandra experience.
+Logate relies on Apache Cassandra to deliver cloud-ready apps that scale without service outages and automatically balance loads across nodes. Apache Cassandra, combined with expert support from DataStax Luna, delivers more availability, better redundancy, and easier scaling for Logate customers.
+
+LEARN MORE
+“We found the educational material around Cassandra from DataStax incredibly helpful to our team as we scaled up our deployments, and we also used DataStax Luna so we could have consulting support available to us. Luna makes it easy for us to get the help we need whenever we need it.”
+
+Danilo Mišović
+Technical Lead at Logate
+Packages
+Luna Standard for Apache Cassandra
+For small production environments
+
+CONTACT US
+Node-based pricing (20-150 nodes)
+Unlimited tickets
+24x7 support coverage
+1 hour urgent response time
+Luna Plus for Apache Cassandra
+For large production environments
+
+CONTACT US
+Node-based pricing (150 nodes +)
+Unlimited tickets
+24x7 support coverage
+1 hour urgent response time
+Support for additional open source projects including K8ssandra (deployments of 150+ nodes)
+Access to Solution Architects
+Premium support add-on
+An enterprise support partnership
+
+CONTACT US
+Access to Named Engineer/Technical Account Manager
+15 minute urgent response time
+Engineering escalation
+Community approved patch support
+Long term support for Apache Cassandra versions beyond end of support from the project
