@@ -382,7 +382,7 @@ except:
 
 # DataStax logo
 with st.sidebar:
-    st.image('./assets/datastax-logo.svg')
+    st.image('./assets/uniphore-logo.svg', use_column_width="always")
     st.text('')
 
 # Logout button
