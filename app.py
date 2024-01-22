@@ -430,7 +430,7 @@ with st.sidebar:
     strategy = st.selectbox('RAG strategy:', ('Basic Retrieval', 'Maximal Marginal Relevance', 'Fusion'), help="Basic retrieval finds the most relevant document with potential duplicate information.\nMMR ensures a balance between relevancy and diversity in the items retrieved.\n Fusion generates a set of additional relevant queries to retrieve relevant documents.", disabled=disable_vector_store)
     prompt_type = st.selectbox('System Prompt:', ('Short results', 'Extended results', 'Custom'))
     print(f"""{disable_vector_store}, {top_k_history}, {top_k_vectorstore}, {chain_type}, {strategy}, {prompt_type}""")
-    custom_prompt = st.text_area('Custom Prompt:', """You're a Code Co-Pilot who helps user's write amazing code. Using the context, provide examples in markdown and explain how it all ties together.
+    custom_prompt = st.text_area('Custom Prompt:', """You're a Code Co-Pilot who helps users write amazing code. Using the context, provide examples in markdown and explain how it all ties together.
 
 Use the following context:
 {context}
