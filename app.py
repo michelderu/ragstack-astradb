@@ -13,7 +13,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.memory import AstraDBChatMessageHistory
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.document_loaders import PyPDFLoader
+from langchain.document_loaders import PyPDFLoader, CSVLoader
 from langchain.schema import HumanMessage, AIMessage
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema.runnable import RunnableMap
@@ -115,14 +115,14 @@ def vectorize_text(uploaded_files):
             with open(temp_filepath, 'wb') as f:
                 f.write(file.getvalue())
 
-            # Create the text splitter
-            text_splitter = RecursiveCharacterTextSplitter(
-                chunk_size = 1500,
-                chunk_overlap  = 100
-            )
-
             if uploaded_file.name.endswith('txt'):
                 file = [uploaded_file.read().decode()]
+
+                text_splitter = RecursiveCharacterTextSplitter(
+                    chunk_size = 1500,
+                    chunk_overlap  = 100
+                )
+
                 texts = text_splitter.create_documents(file, [{'source': uploaded_file.name}])
                 vectorstore.add_documents(texts)
                 st.info(f"{len(texts)} {lang_dict['load_text']}")
@@ -133,9 +133,22 @@ def vectorize_text(uploaded_files):
                 loader = PyPDFLoader(temp_filepath)
                 docs.extend(loader.load())
 
+                text_splitter = RecursiveCharacterTextSplitter(
+                    chunk_size = 1500,
+                    chunk_overlap  = 100
+                )
+
                 pages = text_splitter.split_documents(docs)
                 vectorstore.add_documents(pages)  
                 st.info(f"{len(pages)} {lang_dict['load_pdf']}")
+
+            if uploaded_file.name.endswith('csv'):
+                docs = []
+                loader = CSVLoader(temp_filepath)
+                docs.extend(loader.load())
+
+                vectorstore.add_documents(docs)
+                st.info(f"{len(docs)} {lang_dict['load_text']}")
 
 # Load data from URLs
 def vectorize_url(urls):
@@ -430,7 +443,7 @@ with st.sidebar:
 
 # Include the upload form for new data to be Vectorized
 with st.sidebar:
-    uploaded_files = st.file_uploader(lang_dict['load_context'], type=['txt', 'pdf'], accept_multiple_files=True)
+    uploaded_files = st.file_uploader(lang_dict['load_context'], type=['txt', 'pdf', 'csv'], accept_multiple_files=True)
     upload = st.button(lang_dict['load_context_button'])
     if upload and uploaded_files:
         vectorize_text(uploaded_files)
