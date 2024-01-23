@@ -1,5 +1,5 @@
 # Leave-behind Enterprise Sidekick
-This Enterprise Sidekick is build specifically as a multi-tenant, reusable and configurable sample app to share with enterprises or prospects. It focusses on the interaction between the [Astra DB Vector Store](https://db.new) and the Foundational Large Language Model as *your* data is the only thing that provides a [*Sustainable Competitive Advantage*](https://docs.google.com/document/d/1HKc5sGosR2_SilxJ4aDqU9FxqtpNlkrtB70SybmEQ4A/edit#heading=h.wak20xcv3doz).
+This Enterprise Sidekick is build specifically as a multi-tenant, reusable and configurable sample app to share with enterprises or prospects. It focusses on the interaction between the [Astra DB Vector Store](https://db.new) and the Foundational Large Language Model as *your* data is the only thing that provides a [*Sustainable Competitive Advantage*](https://datastax.medium.com/with-generative-ai-context-is-king-7a1469942044).
 
 ![Chatbot](./assets/chatbot.png)
 
