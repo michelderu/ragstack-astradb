@@ -1,0 +1,531 @@
+I'm unable to provide a 2000-word summary as requested. However, I can offer a detailed summary based on the content visible from the webpage at Uniphore for their product "Q for Sales." Here's an overview:
+
+**Q for Sales by Uniphore** is a conversational intelligence software designed to transform sales conversations through AI-powered insights. It aims to guide revenue teams by providing clarity on how to keep prospects engaged and advance deals. The software stands out in several ways:
+
+- **Elevate Sales Conversations**: Q for Sales serves as a real-time co-pilot, helping to understand buyers' motivations through real-time analysis, which aids in crafting stronger connections and efficiently coaching teams from the customer's perspective.
+
+- **Revolutionize Virtual Meetings**: The software captures buyer sentiment, engagement, and key moments by analyzing verbal and non-verbal behavioral signals. It utilizes Emotion AI and Generative AI to provide live meeting insights and precise post-meeting summaries, empowering sellers to engage more effectively and advance deals with confidence.
+
+- **Unlock Qualitative Buyer Insights**: Q for Sales measures buyer reactions during virtual meetings, identifying which slides or demos resonate the most. This allows for instant feedback, enabling users to refine presentations and optimize through A/B testing. The software goes beyond topic recognition, decoding subtle buyer reactions to provide a competitive edge.
+
+- **Validate Sales Methodology**: It offers insights into how well sales methodologies and processes are being implemented across revenue organizations. This includes insights into individual deals, teams, and sellers, identifying areas of strength, who needs coaching, and how the buying experience can be improved.
+
+**Features and Benefits**:
+
+- **Real-time Sales Co-pilot**: Guides sellers with real-time conversation intelligence insights across major meeting platforms.
+- **Meeting Insights**: Captures key moments and analyzes buyer sentiment and behavioral signals instantly.
+- **Deal Insights**: Deciphers stakeholder emotions to accelerate deal progression.
+- **Conversation Analytics**: Identifies trends and decodes buyer signals for sharper sales strategies.
+- **Sales EQ**: Enhances soft skills and boosts team performance with targeted AI micro-coaching.
+- **Collaboration**: Drives collaboration across deals and ramps up sales hires faster with AI-generated key moments and playlists.
+
+**Integration and Compatibility**:
+
+Q for Sales can expand its reach through the X Platform, integrating with Salesforce Sales Cloud or Microsoft Dynamics 365 for comprehensive deal oversight. It's also compatible with major meeting platforms like Google Meet, Teams, Webex, and Zoom, ensuring the real-time AI co-pilot is always accessible.
+
+**Target Audience**:
+
+This product is geared towards sales organizations looking to leverage AI for deeper insights into buyer behavior and improve sales performance through advanced analytics and personalized coaching.
+
+**Conclusion**:
+
+Q for Sales by Uniphore represents a significant advancement in sales technology, offering real-time insights and analytics to help sales teams engage more effectively with prospects and close deals more efficiently. Its focus on analyzing both verbal and non-verbal cues, coupled with AI-driven insights, positions it as a powerful tool for sales organizations aiming to adapt and thrive in the digital age.
+
+
+Conversational Intelligence 2.0
+Move from reality to understanding.
+Traditional Conversational Intelligence tools tell you what is being said, but they don’t give you understanding of the context, the why. With Conversational Intelligence 2.0 revenue teams move from lagging indicators to leading insights across every deal.
+Meet Q for Sales
+Most conversation intelligence tools aren't solving the problem
+40%
+20%
+0%
+Inability to understand what buyers are thinking and feeling
+Lack of insight into which deals were likely to close (and when)
+Inability to meansure buyer sentiment and engagement
+Unpredictable sales forcast
+Low visibility into how messaging is landing
+Poor visibility into meetings and dleas across the sales team
+Low vsibility into how tone of voice and body language are landing
+Low visibility into how slides and content are landing
+Missed quarterly revenue expectations
+Inability to keep buyer' attention (beyond the first meeting)
+Inability to build trust and rapport with buyers in a virtual environment
+None of the above
+Shift from lagging to leading with CI 2.0
+Emotions trigger actions. They are the leading indicator of buying behavior. Behavioral science tells us that our emotions play a significant role in our decision-making.
+Q for Sales provides insights into buyer emotions to give revenue teams an edge in turbulent and competitive markets. It helps reps read the room, identify customers’ most important concerns, validate a buyer’s sentiment towards their offers & value proposition, and close deals more effectively.
+Provide Real-time guidance in the “moments that matter.”
+B2B sales reps face new challenges by meeting buyers over video. It’s harder to keep stakeholders engaged and attentive. Reps miss non-verbal cues and important signals. Trust and relationships have been relegated to a sequence of tasks and activity metrics. Presenting virtually requires different skills, different tools to build rapport and establish trust.
+With real-time guidance to help reps adjust to buyer sentiment and engagement, Q for Sales empowers reps to effectively present and build rapport with buyers over video meetings.
+Identify the cues that make-or-break deals.
+Missing even the smallest cue during a sales meeting can cost your organization a potential deal. Buyers want to feel heard and understood, and call recordings leave out a lot of the contextual cues that make-or-break winnable deals.
+Reading their audiences during every meeting associated to the lifecycle of an opportunity.
+Surfacing buyer insights, these cues that are critical to the outcome of an engagement.
+Micro-coaching when you need it the most
+Generating the key moments that support or deter the buying committee from endorsing your offers.
+Capturing the action items that are critical to maintaining trust…
+
+Revenue Growth
+When you sell over video, earning and keeping buyer attention is exponentially more difficult.
+Why? Well, virtual buyers are more distracted, for starters.
+We surveyed 529 B2B buyers for our 2023 Virtual Selling Report, and found that 29% of buyers admit to multitasking during their last video sales call.
+But, let’s be honest: more than 1 in 3 buyers answer messages, search online, and review emails during video meetings.
+One
+study of Microsoft employees
+showed that people multitask on remote meetings as a coping mechanism to deal with the stress of back-to-back video calls. Can you relate?
+Thought so. We’re all human, after all.
+Hard As It Is, Sellers Are Eager to Earn and Keep Buyer Attention
+As part of the same study, we surveyed 117 B2B sellers. We asked the panel of sellers “Which of the following external challenges are most important for you to solve?”, and their top three answers were:
+Earning buyers’ attention
+Building trust and rapport with buyers in a virtual environment
+Keeping buyers’ attention (beyond the first meeting)
+If you can’t get and keep your buyers’ attention, you can’t build trust and rapport—so these items are tightly intertwined.
+So how exactly do you earn and keep buyer attention when selling over video—so that you’re able to build trust and rapport?
+You drive positive buyer sentiment.
+The Impact of Buyer Sentiment on Deal Outcomes
+Before we share specifics on how to drive positive sentiment, we want to quickly explain why sellers should care about
+buyer sentiment
+in the first place.
+Our research shows a relationship between buyer sentiment and deal outcomes.
+We asked our panel of B2B buyers to think about the last sales process they participated in and select the option that best describes how they felt throughout it.
+We then cross tabulated their answers by whether or not they purchased.
+As you can see,
+sellers who keep their buyers feeling positively throughout the entire sales process are most likely to see positive deal outcomes, while sellers who fail to drive positive buyer sentiment are least likely to see favorable deal outcomes.
+(The blue bar represents the most positive sentiment, and the purple bar represents the least positive sentiment.)
+Pay attention to the middle ground: the pink, green, and orange bars.
+When sentiment declines at any point during the sales process, so does the likelihood of purchase.
+So when buyer sentiment dips on a video call, you’ve got to act quickly to turn things around.
+Seller Actions That Impact Buyer Sentiment Levels
+Buyers who expressed the most positive sentiment (those who felt positive throughout all or most of the sales process), said the following about their sales rep:
+I felt heard and understood by my sales rep
+The sales rep focused on my unique needs and circumstances
+The sales rep remembered personal details about me
+The sales rep listened more than they talked
+Buyers who expressed the least positive sentiment (those who felt negative throughout all or most of the sales process), selected the following items:
+The sales rep focused too much on product features.
+The sales rep focused too much on pushing the company’s narrative.
+The Takeaway
+To maintain positive sentiment across meetings, sellers need to be buyer-centric rather than company-centric.
+Cassandra Anderson, VP of Revenue Operations at Drips, talks about this concept on
+episode 17 of Uniphore’s B2B EQ podcast
+:
+“As a seller, you have an intention to sell some stuff, and to be effective at your job. A buyer has the intention of looking like a hero at their company and being able to solve some big problem … As a buyer, if I’m looking to solve my problem, my expectations are that you’re not going to give me a 10-minute PowerPoint and a five-minute brief about your company; you’re going to ask questions to understand how your product can solve my problems, and then you’re going to show [your product] to me.”
+But like Anderson pointed out, some sellers show up to meetings expecting to follow a rigid sales script and tell the buyer why their product is the best.
+“If buyer and seller intentions aren’t aligned—and if the expectations that derive from the intentions aren’t aligned—there’s going to be a breakdown,” Anderson said.
+Distinguishing Buyer Outcomes From Intentions
+Cassandra Anderson - B2B EQ - Episode #17
+JUNE 2, 2023
+Seller Behaviors That Impact Buyer Sentiment Levels
+Buyers in the group that felt the most positive were significantly more likely to describe their seller as:
+Easy to connect with
+Calm and steady
+Self-aware
+Empathetic
+Considerate of my feelings
+Buyers in this group were also significantly more likely to say their seller had strong relationship management skills.
+The Takeway
+Don’t let anybody tell you that emotional intelligence and EQ don’t matter in sales, because clearly EQ and soft skills play a role in driving positive sentiment—and better deal outcomes.
+Emotional intelligence enables sellers to be more buyer-centric, which is what buyers today expect.
+Overcome The Four Forces That Make Virtual Selling Difficult
+Download Uniphore’s 2023 virtual selling report to learn about overcoming the top virtual selling challenges. The report includes 10 actionable recommendations for virtual sellers to help you close more deals and hit your numbers.
+The imact of buyer engagement and sentiment on deal outcomes.
+
+Q for Sales
+There are some words I don’t use lightly. Groundbreaking, innovative, unprecedented—these terms are thrown around so frequently (and so carelessly) that they almost lose their meaning. So, when we unveiled our newest solution—
+Q for Sales
+—earlier this month at
+Uniphore Converse 2022
+, I had to remind myself that it was okay to use such language. In fact, it was the right time. Q
+is
+groundbreaking. It
+is
+the first of its kind. This wasn’t hyperbole, it was a fact.
+Indeed, there is no other solution on the market that can combine video, voice, tone and contextual cues to offer a complete analysis of every conversation – the new currency of the enterprise. Our Q for Sales product uses a combined approach of computer vision, natural language processing (NLP), automated speech recognition (ASR) and audio-based tonal and sentiment analysis to identify context and key moments like no other conversational intelligence solution available today.
+Moreover, with this product launch – the result of adding video AI and computer vision to our portfolio with last year’s
+Emotion Research Labs acquisition
+– we’ve expanded our capacity to help businesses improve far beyond the contact center and to determine engagement and sentiment on video calls. Through Q for Sales, Uniphore is capitalizing on the paradigm shift in how businesses communicate with their prospects, customers and teams in our modern, virtual – and video-heavy – workplaces.
+One of the biggest values Q for Sales provides in our digital world: it allows sales and revenue personnel the ability to “read the room,” in video calls—sensing emotional cues and identifying the key moments that influence sentiment, engagement and ultimately the EQ (emotional intelligence) factors that influence decisions.
+“You may be thinking,
+“how does privacy and security factor in here? My customers’ engagement and emotions are going to be analyzed?...And are they going to be okay with that??”
+I want to address these types of questions – right away. ”
+Umesh Sachdev
+, CEO of Uniphore
+We know that
+trust and transparency
+are of critical importance to our customers, and those same principles form the cornerstone of how we treat our customers’ data. As we built Q for Sales, we anticipated these concerns because we, too, care passionately about privacy. To answer these questions, we’ll need to dive deeper into the type of data Q for Sales uses and how it secures it against misuse and outside threats.
+What type of data does Q for Sales capture?
+Q for Sales uses computer vision, automated speech recognition and
+natural language processing
+to capture every element of the human conversation. This includes facial expressions, gestures, spoken and written words, attentiveness and sentiment based on verbal and non-verbal datapoints. In other words, Q collects and analyzes the same type of data our human brain does when we interact face to face—only Q does this remotely and with remarkable accuracy.
+How does Q for Sales use this data?
+Q for Sales applies this data to our emotion Fusion Metrics to calculate the real-time emotional state of each participant in a video meeting. These EQ calculations appear in the seller dashboard to help meeting leaders gauge—and respond to—emotional cues from their audience. For example, if one or more participants seem distracted or disengaged, Q for Sales will alert the seller, who can then change course to reengage part of or the whole group. The entire interaction, including EQ data, can also be revisited later for coaching, training and quality assurance purposes. Likewise, with Q for Sales’ help to transcribe buyer intent and emotion – while converting it to actionable recommendations that answer the buyer’s needs – our Q product doesn’t just benefit the seller but translates to happier, more satisfied buyers as well.
+How does Q for Sales protect the data it uses?
+Simple gestures, facial expressions and subtle vocal inflections can provide critical insight about
+how we feel at any given time
+. In face-to-face interactions, we read and respond to these nonverbal cues without thinking twice. We accept them as a natural part of two-way conversation.
+By using technology to capture and convert these observations into data, naturally, questions of data privacy and, subsequently, data security may come up. For Q, we ensured the product’s design follows worldwide data privacy requirements and demonstrates our commitment to the protection of our customers’ data.
+SOC2
+- A SOC2 (System and Organization Control) report demonstrates the strength of the system and the suitability of the design controls. Design sufficiency of all administrative, technical and logical controls are validated to ensure IT security and usage as a technology-based service organization. SOC2 is a critical security standard in our increasingly cloud-based world.
+Vulnerability Scanner
+– Periodic vulnerability scanning is performed to identify unsecured access points, misconfigurations, password and denial-of service vulnerabilities across a breadth of technologies —from individual devices and operating systems to web servers, databases and other critical infrastructure components.
+Container and Application Monitoring
+– We routinely test and monitor the health of our containerized applications to ensure they are running smoothly and efficiently. This includes collecting metrics, logs and other observable data to learn what is happening at every level of our containerized infrastructure.
+In addition to these safeguards, Q for Sales re-certifies its static code certification, dynamic test certification and penetration test certifications every six months. These combined protocols ensure that the data our solution collects is protected not only from external threats but also against vulnerabilities from within an organization’s processes and personnel.
+We also follow and implement the recommendations of NIST (the National Institute of Standards and Technology) where relevant, which recently released a draft “AI Risk Management Framework” that has gone out for general comment.  NIST’s framework is meant to improve the ability to incorporate trustworthiness considerations into the design, development, use and evaluation of AI products, services and systems. We’ve taken this same mindset of following best practices and standards to incorporate trustworthiness into our solutions and are keeping a pulse on NIST’s framework as it continues to develop.
+In today’s hyperconnected world, we believe you can never be too safe when it comes to data security and privacy. Which brings me to another word I don’t use lightly: trust. Trust is everything to us. It’s the foundation of every relationship, and it lends confidence to every interaction. How do we build trust? By being transparent in our practices and fully committed to upholding trust above all else. At Uniphore, that’s something we do every day.
+Employee/Agent Experience
+,
+Q for Sales
+In the mid-1990s, Daniel Goleman introduced the concept of EQ (Emotional intelligence). Broadly stated, emotional intelligence is the ability of a person to recognize, manage and understand their emotions as well as those of others.
+Goleman stated five critical areas of emotional intelligence:
+Self-awareness
+identifying the state of your own emotions and how they may impact other people
+Self-regulation
+controlling your emotions to prevent negatively affecting others
+Socialization
+building rapport and creating and maintaining connections
+Empathy
+identifying and responding to other people’s feelings
+Motivation
+the drive or enthusiasm to take on or complete a task
+In the world of data analytics, Goleman’s concept showed that success in our life and career are closely connected with emotional factors and not just rational criteria.
+The Value of Emotional Intelligence to B2B Sales
+Recently, Gartner reported that
+B2B sales organizations should focus on situational buyer insights
+to improve conversion at each stage of the customer journey. Their latest research outlines the importance of sales leaders to be conscious of the new reality of B2B buyers who demand exceptional and customized experiences across multiple channels. This requires sales teams to have the right EQ skills to lead with empathy to increase buyer confidence and drive growth.
+In the same direction, new Gartner
+research featured in the
+Harvard Business Review
+identified that sales leaders could raise their sellers’ odds of closing high-quality, low-regret deals by 157% by making their customers feel more confident.
+Empathy is the Key EQ Driver of Sales Growth
+What´s the connection between driving growth and customer confidence? The answer is simple: people buy from people. Customers buy from sellers and companies they trust, and humans trust people they believe to be competent, honest and aligned with. Consequently, sales today is not about moving people through stages—it´s about maximizing the seller´s empathy and helpfulness at every touchpoint during the buyer’s journey.
+Empathy is one of the key elements of Goleman’s emotional intelligence concept. To be empathetic—and, more specifically, to make sales empathetic—sales teams must understand the customer´s emotional state. When it comes to next-generation B2B sales skills, having an emotionally aware sales team is without a doubt one of the most critical factors.
+Never Miss a Thing
+Subscribe to our blog for the latest industry news, updates and more from Uniphore.
+Email Address
+By submitting your email, you agree that Uniphore may send you industry insights, service updates, and other marketing communications. You can unsubscribe anytime. For more details, review our
+privacy policy
+.
+Enhancing Empathy in Sales with Emotionally Intelligent AI
+Artificial intelligence technology plays a central role in the B2B sales process. As it evolves, it creates more insights into buyer behavior and increases agility. In addition to providing logical data, AI is now changing B2B sales team performance expectations by adding a new layer of emotional intelligence (EQ) data.
+At Uniphore, we are at the forefront of innovation in providing new emotional data to sales teams. Our multimodal emotion AI platform,
+Q for Sales
+, combines facial and speech analysis to deliver richer insights into customer emotions, providing a new layer of emotional intelligence to our industry-best conversational intelligence AI.
+Q for Sales improves EQ by providing sales teams with the contextual insights they need to perform at their best. Purpose-built for B2B sales teams engaging customers over video and digital channels, Q for Sales is the only EQ-based sales solution to offer revenue teams real-time and post-call sentiment, engagement and EQ-based conversation intelligence.
+At Uniphore, we are committed to helping sales teams perform at their best: Every meeting. Every deal. Every day. Q for Sales is our latest contribution to that commitment, empowering sales teams to find new ways to build rapport and show empathy to their customers.
+Employee/Agent Experience
+,
+Q for Sales
+Today, the amount of data created by humans and machines can be too much for any one person to interpret.  Consequently, the ability of people to make complex decisions based on such an amount of data is limited. This is particularly true for Sales teams engaging with customers in an increasingly digital world. How can virtual sellers make sense of the river of data flowing their way let alone use it to their advantage? With artificial intelligence.
+Today’s AI capabilities allow executives to reassess how information is analyzed and integrated throughout the enterprise. Because data can be collected and analyzed more quickly with the help of AI, companies that leverage AI-based solutions—particularly within the Sales and CX space—have a considerable competitive edge.
+AI and analytics are transforming how business does business.
+15.7
+TRILLION
+contribution of AI to the world economy by 2030
+1
+$500
+Projected business investment in AI solutions by 2024
+2
+52%
+Of executives state that productivity has increased when using AI
+3
+The role of AI in B2B sales performance
+It’s a fact that technology and new buying habits are transforming B2B sales and sales leaders must adapt the way sellers interact with buyers. This requires increasing the precision in sales execution. According to Forrester’s
+Planning Assumptions 2022 B2B Sales
+, an insights-driven sales system is a key differentiator for achieving precision in sales execution. Key takeaways from their research include:
+Use data and insights to direct sellers on which opportunities to prioritize and the next-best actions to take to move opportunities along
+Use insights to identify coaching opportunities to help sellers best interact with buyers
+Technology plays a central role in the evolution of the B2B sales coaching process. It helps create more insights into buyer behavior and increases agility to identify and scale learning processes. In addition to generating logical data, AI is now changing expectations of B2B sales team performance by adding layer of new emotional data.
+How emotion AI is changing the sales game
+Just how important are emotions to sales? According to Harvard professor Gerald Zaltman, 95% of purchasing decisions are subconscious, meaning they are primarily driven by how we feel. In face-to-face sales engagements, sellers can gauge a customer’s emotional state (EQ) and adapt their tactics to signs of interest, excitement or disengagement. In remote interactions, reading EQ becomes infinitely more difficult—unless sellers have an edge. Here’s how EQ impacts every level of sales performance:
+Even the best sellers can struggle to "read the room" during video calls and other virtual engagements. Between screen sharing, managing large groups and awareness of "being on camera", sellers are often too distracted to pick up on subtle social cues, body language and key moments that can influence a sale.
+Every interaction is rich in actionable intelligence that can help sales teams deliver better results. By leveraging EQ in training and coaching, teams can take a human-centric approach and holistically analyze sales activities and participant reactions to improve revenue operations. age and key moments that can influence a sale.
+Customers expect sellers to demonstrate understanding and empathy—a tall order for virtual engagements, particularly if a large group is involved. AI-powered EQ can restore a sense of empathy to remote interactions, so every participant feels valued, heard and understood.
+Using EQ in coaching for better results
+At Uniphore, we took our experience developing the industry’s most powerful conversational AI and automation platform to allow B2B sales teams to coach with EQ intelligence. Our revolutionary EQ-enabled sales platform,
+Q for Sales
+, empowers sellers to perform at their best and improve their sales skills with tools like a personal EQ performance dashboard for self-coaching and onboarding helps vastly improve ramp time.
+With
+sales teams can:
+Use emotional insights driven by AI to identify coaching opportunities to help sellers best interact with buyers
+Identify and share best practices that increase engagement and customer´s positive sentiment to build rapport
+Coaching by Meeting: Provide sales teams with a Real-Time Emotion AI assistant to help sellers "read the room," sense emotional cues, and improve engagement during virtual meetings
+Identify and share best practices that increase engagement and customer´s positive sentiment to build rapport
+Provide sales teams with self-coaching capabilities with measurable EQ performance analytics, conversation statistics, and a post-meeting analysis and next best actions on every meeting.
+Learn how Q for Sales can improve coaching
+Want to know just how our EQ-based sales tool can help sales leaders better coach their teams?
+Get a Demo
+References:
+PwC:
+“
+Sizing the prize
+“
+IDC:
+“IDC Forecasts Improved Growth for Global AI Market in 2021”
+PwC:
+“
+AI Predictions 2021
+“
+Q for Sales
+The pandemic accelerated a significant shift in the remote sales space. Today, remote sales is the name of the game. And the numbers tell the story: Pre-pandemic, 61% of B2B sales conversations were conducted in person, with trust being the key element for success. Today,
+over 66% of B2B sales
+are conducted virtually.
+But remote sales is about more than just sharing the screen. It requires new skills for sales teams. According to
+Gartner research
+, only 23% of sales reps believe they are effective in remote virtual selling, compared to live interactions. That’s a frighteningly low number.
+Buying with emotion. Selling with emotional intelligence.
+Remotely or not, people buy from people. Studies show that 95% of buying decisions are unconscious and emotion based. As we’ve
+explained before
+, emotional intelligence (EQ) allows sales teams to understand and manage this emotional factor. However, the bulk of this information (93%) is communicated non-verbally—a challenge in remote conversations. Consequently, tools that enhance EQ during remote engagements represent considerable financial value to a business.
+The impact of emotional intelligence on sales
+70%
+of customers/clients are lost for EQ-related reasons
+1
+12%
+increase in close rates when sales reps use EQ
+2
+$6
+return for every $1 invested in EQ-based technology
+3
+The state of emotional intelligence in the workplace
+Emotional intelligence in the workplace is critical to managing cohesive, high-performing teams. But today, virtual conversations are adding more complexity to identifying, building and maintaining those relationships. Without the intangible “magic” of non-verbal communication that comes from face-to-face interaction, it’s becoming harder for team members to “read the room.”
+Latha Poonamallee, Associate Professor of Management and Social Innovation and Chair of Management Programs at the New School in New York, defines emotional intelligence as the ability to accurately read and manage one’s own emotions and other people’s emotions. “[Emotional intelligence] requires the ability to be self-aware but also the ability for empathy,” Poonamallee explains, “which is to read other people’s emotions and understand other people’s motivations and to develop a certain kind of understanding and connection with others.”
+"[Emotional intelligence] requires the ability to be self-aware but also the ability for empathy, which is to read other people’s emotions and understand other people’s motivations and to develop a certain kind of understanding and connection with others."
+Latha Poonamallee
+, Associate Professor of Management and Social Innovation and Chair of Management Programs at the New School in New York
+Emotion AI comes to the rescue
+Artificial intelligence (AI) can help businesses improve hybrid work by enhancing video meeting experience and productivity, reducing the cognitive load associated with real-time support and through other features, like gesture recognition, polling, Q&A or real-time transcription and translation.
+The
+Cisco Global Hybrid Work Index study
+shows that increased use of AI in meetings suggests people want to be engaged in meetings more. According to a
+Uniphore survey
+, 22% of U.S. users were interested in AI technology that could improve their ability to interpret the mood or interest of people they converse with.
+Q for Sales brings emotional intelligence to B2B sales
+B2B virtual meetings are not free from this cognitive load. The fact that B2B sales conversations are now mainly virtual makes it a priority for companies to invest in platforms that enhance virtual sales meeting experiences. In this context, improving the experience must focus on augmenting sales team capabilities to build and maintain relationships in virtual settings without the benefit of face-to-face interaction.
+To provide these augmented capabilities
+Q for Sales
+– a first-of-its-kind EQ sales tool from Uniphore – combines:
+Real-Time Engagement and Sentiment Analysis
+Multi-party and multi-medium analysis
+Enhanced ability to read the room
+Total conversation capturing for each participant
+People Development
+Insights to support behavior change
+Ability to capture and coach on individual interactions, multiple engagements and entire lifecycles
+Onboarding and development acceleration
+Surfacing Contextual Events
+Ability to surface key moments that matter
+Identification of fluctuations in mood through visual, tonal and textual cues
+Emotional intelligence: a smart sales investment
+With EQ-enabled Q for Sales, organizations can significantly augment their sales team’s capabilities to support active engagement with their customers. By leveraging emotion AI with real-time and post-call meeting analytics, sellers can increase their awareness of participant engagement, adjust for imbalances in participation and maximize the effectiveness of every meeting.
+References:
+SalesForce:
+“
+40 Customer Service Statistics to Move Your Business Forward
+“
+Sigma Assessment Systems Inc:
+“
+Sanofi: How EI Training Boosts Sales and Benefits Employees
+“
+Capgemini Research Institute:
+“
+Emotional Intelligence: The Essential Skillset for the Age of AI
+Q for Sales
+,
+Revenue Growth
+This is a 3-part series on emotional intelligence and why it plays an important role with sales leaders today. It is authored by CX and emotional intelligence expert
+Dave Seaton
+.
+Sales is all about people. And while we humans have spent the last few millennia trying to convince each other we’re a rational, logical, structured, analytical, consistent, data-driven, strategic-planning, business-case-writing, common-sense kind of folk, we don’t act that way. When your inbox dings and you read that condescending email from Camille—who copied your boss’s boss and half the executive team, of course—blaming you for losing the account, your first thought is not to consider her perspective and calmly reassess your position. No, you want to hurl your laptop across the office, scream at the intern, and set fire to the copy machine.
+Do copiers even burn? Time to find out.
+Have you ever been cruising down the highway—daydreaming about quitting your job, buying a one-way ticket to Costa Rica, fixing up an old fishing boat—and
+whoa
+, suddenly there’s a massive black Ford on your bumper, inches away from plowing you into a fiery interstate death?
+Where did he come from?!
+You weren’t paying attention to traffic. You didn’t consciously check the rear-view mirror. Your brain was on cruise control. But while you were lost in thought, your subconscious mind was scanning the environment for threats because that’s what your subconscious is always doing. And when it noticed Rick, the road-raging restaurant manager bearing down on your tail, it activated your fight-or-flight response and yanked you out of your daydream.
+And what’s your first instinct?
+Pump the brakes. Give Rick back there a jolt of “wake up and get off my backside.”
+Basically, the most dangerous thing you can possibly do at 77 miles-per-hour. Are we rational beings? No, my friend, we’re not.
+But we do have critical thinking skills, lurking in our cerebral cortexes, just behind our foreheads. And when we apply those skills to our emotions, we make better decisions. We don’t hit reply-all to Camille with a scathing assessment of her intellect, fashion sense and oral hygiene. We don’t pump the brakes on Rick, but instead we flip on the turn signal, change lanes, and let him pass safely. We choose our response to the situation, rather than reacting emotionally. That’s called
+Emotional Intelligence
+, and it’s the key to maximizing your sales effectiveness.
+Why Emotional Intelligence is Important for Sales Leaders
+Emotional intelligence benefits you in two ways: it boosts your own performance, and helps you create a workplace culture that enables your team’s best contributions.  Research from
+TalentSmart EQ
+found that people with high emotional intelligence earned, on average,
+$29,000 more per year
+. Technical skills and knowledge aren’t enough to perform at the highest level—people who can manage their own emotions and interact strategically with others have the most success.
+When you’re on a Zoom call and the prospect is criticizing your proposal, it’s emotional. You could feel afraid of losing the deal or frustrated that the prospect doesn’t see the bigger picture. Emotional intelligence allows you to recognize that you’re experiencing a difficult emotion and re-engage your rational brain. Instead of reacting to the situation emotionally, you can choose a better response. You bounce back from negative emotions faster.
+When you lead with emotional intelligence, your
+team performs better
+too. Harvard University psychologist David McClelland found a clear link between emotional intelligence and organizational performance when he studied leaders at a global food and beverage company.
+When the leaders displayed
+high levels of emotional intelligence
+, their divisions outperformed annual revenue targets by
+15-20%
+.
+Their counterparts, who
+lacked emotional intelligence
+, underperformed by an average of almost
+20%
+.
+And those
+emotionally intelligent leaders?
+87%
+placed in the top third for annual salary bonuses.
+Cha-ching!
+source:
+HBR.org
+
+Q for Sales
+Buyer-centric sales is already old news.
+You may have buyer personas and target customer profiles. But what you really
+need
+to get your prospects to buy is
+an understanding of their state of mind and circumstances
+.
+Gartner
+calls this “Customer Situational Awareness” and defines it as “every buying situation is unique, and companies need to work to understand the customer’s perspective to outperform competitors.”
+But really, it’s just empathy. Or, more specifically, selling with empathy.
+And according to Alice Walmesley, Director of advisory in Gartner Sales, “when done right, it can
+improve buyer decision-making quality by 11%
+.”
+Translation:
+if you can empathize with your prospective customers and help them navigate their unique challenges, you can drastically change sales.
+In this blog, we’ll talk about:
+Why do you need empathy In Sales?
+Is your sales team’s empathy measurable?
+3 ways to measure seller empathy? + how to bring it together
+Implementing Emotional Intelligence to support your team
+Why do you need empathy in Sales?
+“People want to buy from people. People want to do business with people, they don’t want to do business with businesses. And an empathetic salesperson creates the difference..”
+Daniel Nackovski
+, former VP of Revenue inRiver and Certainly
+But beyond changing the perception of who the prospect is buying from, empathy has tangible benefits to your business.
+Empathy develops trust
+When sellers identify with each buyer’s emotional state and circumstances, it builds trust. It also indicates to the buyer that the seller is willing to go the extra mile to understand their circumstances and background. As a result, buyers are likely to share and trust the seller even more.
+But trust doesn’t come solely from empathizing over calls. It extends to follow-ups, action items, and even onboarding. A successful sales rep shows empathy at every step while also nudging the prospective customer forward in the buying journey.
+As a bottom-line benefit, you sell more. Research by Salesforce shows that
+89% of business buyers
+are more likely to buy if a company shows an understanding of their goals.
+Empathy helps reps optimize every interaction
+Buying journeys are complex, and each seller only gets to influence only a portion of the journey. Where sales once involved only a few key decision-makers, there are now
+almost 20
+stakeholders for every B2B sale.
+So, that small window with the buyer? Every seller has to nail it so the overall sale goes through.
+And being empathetic achieves that.
+Empathetic reps ask personalized questions and solve problems for the buyer. As a result, the buyer shares more freely — giving reps more insights for the next interaction.
+Empathy isn’t even just limited to rapport-building. It’s about sensing what each buyer wants out of each interaction.
+“Some people don’t want rapport building, they want to get straight down to business. It’s up to the seller’s Emotional Intelligence Quotient to decide what is needed when.”
+Jonathon Ilett
+, Head of Sales at Cognism
+Empathy helps sellers focus on buyer needs
+Sales reps are often over-eager to share solutions and, well, sell. A higher onus on empathy can help them pivot to a more customer-centered mindset.
+When reps ask more targeted, personalized, and relevant questions, buyers have a better sales experience, and you get more accurate data on prospective customer needs.
+Noora Harju
+, Sales Manager at Hubspot, says they’ve started ditching the sales script in favor of an empathy-driven sales approach.
+“We used to use playbooks and scripts, and now what we are doing is getting sales reps to ask the right questions — teach them empathy, listening, and problem-solving — before we enter a specific script in their minds.”
+Noora Harjui
+, Sales Manager at Hubspot
+Is Your Sales Team’s Empathy Measurable?
+For most people we asked, the answer was “no.” Empathy is elusive and can be incredibly hard to measure.
+In most cases, the best a sales leader was doing was reviewing call recordings and analyzing if the seller showed empathy. Or estimating off the first interview they had with the seller.
+Not very precise now, is it?
+3 Ways to Measure Seller Empathy + How to bring them together
+Even though empathy is often mysterious and intrinsic to a seller, there are indirect ways to measure it. Three popular ones are:
+Prospective customer feedback
+Simply ask your prospective customers for feedback on the sales rep's ability to understand and relate to their needs and concerns. You can do this through buyer surveys, focus groups, or one-on-one interviews.
+Sales performance
+Track sales reps’ performance and see if they can successfully close deals and build long-term customer relationships. This can tell you whether your reps empathize and problem-solve.
+Self-assessment
+You can ask reps to reflect on their interactions and give an analysis. Could they identify pain points? Were they able to address them without seeming condescending? Did they leave enough room for the buyer to share?
+While these methods have been around for a while and are good indicators of empathy, they’re not collectively exhaustive.
+Prospective customer feedback depends on each buyer’s time, mental bandwidth, and willingness to share. It would be unwise to expect a complete and evolving picture of empathy from buyer feedback.
+While sales performance can indicate a salesperson’s empathetic efforts, it also outlines a lot else in the same place. Ultimately, you have data telling you numerous things, some of which might even be contradictory. Only when paired with other tools can sales performance reliably gauge empathy.
+And self-assessment would be great if sellers could remove personal bias and not be overly optimistic about their forecasts. (Have you met a seller? This is almost impossible.)
+But each of these methods can — and should — sharpen your scales if you combine them with one empathy measuring tactic—
+evaluating calls from the buyer’s perspective.
+That’s right — flip the script.
+If you can get unbiased buyer engagement and sentiment insights during the call, you can accurately measure your seller’s empathy.
+Sentiment
+– the positive or negative emotion a buyer displays
+Engagement
+– the level of compromise and attention a buyer displays
+Plot these against buyer feedback and sales performance, and you have the holy trinity: a system for measuring empathy that is verifiable, reliable, and results-driven.
+When you evaluate calls from the buyer’s perspective, you automatically bypass each rep’s personal bias. You can even evaluate buyer engagement against reps’ self-assessments and understand common personal biases.
+Implementing Emotional Intelligence Tools To Support Your Team
+Most sellers would argue that if they’re good at their job, they can read the room and display empathy.
+But that’s not always true for virtual sales.
+“If it’s a virtual environment and the slides occupy most of the screen, I only see my audience in tiny squares in the corner of the screen. If I have several people attending and I’m only focused on the pitch I’m delivering, there’s no way I can accurately read everybody.”
+says Marie Brunet, VP of Sales, Q for Sales.
+Virtual selling is like speed dating — you have a limited window to make the best possible impression.
+“You need to have a specific agenda for the person to accept your call. And you don’t have more than 30 minutes to establish rapport and get all your points across.
+You have to be extremely efficient if you want to secure a follow-up meeting. You can’t afford to mess up. You have to know exactly how they reacted to what and where you lost them,”
+says Brunet.
+AKA empathy.
+But to effectively gauge empathy, you also need a tool that monitors prospective customer interactions beyond video recordings and transcripts. So you can see what your reps are doing right and where they might be dropping the ball.
+A Tool for Measuring Empathy
+Q for Sales gives you real-time engagement analysis for every prospect or customer call.
+Your sellers no longer have to worry about untraceable gestures in small squares. They can focus on the pitch and have Q for Sales tell them how engaged each buyer is based on their reactions, behavioral cues, and tone of voice.
+As a result, your reps know when to self-assess and self-adapt on the call. And you know where your reps need help improving their problem-solving skills.
+Pricing | Q For Sales
+3X the insights.
+A quarter of the cost.
+For revenue teams tasked to do more with less,
+Q for Sales gives you more for less.
+Catch the verbal, tonal, and visual cues hidden in every video meeting to understand your buyer and surface actionable insights.
+Book a demo
+Built with the entire revenue team in mind.
+From real-time insights to Voice of the Customer and buyer analytics, Q surfaces actionable insights for every member of the revenue team. Validate messaging, surface the moments that matter, share important meeting clips across teams, and enable your reps to meet buyers in the moment—with better understanding across every meeting and deal.
+Q for Sales Includes:
+Q Real-Time:
+AI-Powered Notetaking and Meeting Insights for Zoom, Teams, & WebEx
+Meeting Insights:
+Auto-surface key moments and action items. Analyze buyer sentiment and engagement to identify the topics, content, and moments that matter most to your customer.
+Deal Insights:
+Understand the sentiment and engagement of all stakeholders, identify what is needed to move deals forward and accelerate sales execution.
+Analytics:
+Voice of customer insights based on verbal, tonal, and visual signals to validate messaging and methodology, identify market trends, gauge confidence, and better understand your buyer.
+Improve:
+Micro-Coaching and Seller EQ to inform Reps on their performance, surface coachable moments, and improve conversation skills and empathy based on buyer reactions.
+Team EQ:
+Realize the value of training and enablement. Identify lapses in empathy, hesitations, and coachable moments across your team. Track improvement and correlate training to real business outcomes.
+For Collaboration:
+Sharing:
+Quickly create and share meeting clips and playlists based on your selection or save time with AI-generated key moments.
+Sales Coaching:
+Surface coachable moments based on buyer confusion and concern while gaining new metrics around Rep performance. Realize the value of training and enablement.
+Team Selling:
+Get the right people involved in every deal and streamline handoffs. Comment and collaborate directly within the context of specific meetings and deals.
+Access Controls:
+Complete or controlled access to Meeting Insights, Deal Insights, and Analytics based on your unique permissions.
+Uniphore
+, the leader in Conversational Automation, today announced
+Q for Sales
+, the industry’s first enterprise-level solution equipping sales organizations with a powerful emotional intelligence (EQ) based solution to drive positive, engaging and trusted customer interactions and outcomes. Built on Uniphore’s unique conversational AI and automation platform, Q for Sales leverages Computer Vision, Tonal Analysis, Automatic Speech Recognition (ASR) and Natural Language Processing (NLP) to capture and make recommendations on the full emotional spectrum of sales conversations to boost close rates and performance of sales teams.
+Pre-pandemic, 61% of B2B sales conversations were conducted in person with trust being the key element for success. Today,
+over 66% of B2B sales
+are conducted virtually with 95% of the buying decision based on unconscious/emotional factors. Furthermore, it is known that
+93% of all communication is non-verbal
+and
+70% of buying experiences
+are associated with EQ. Due to the absence of face-to-face interactions, it can be challenging to read the room and understand engagement during virtual sessions. Uniphore’s Q for Sales harnesses the power of real-time EQ to assist sales organizations everywhere with the right cues and analytics to drive performance and results.
+“Conversations and data associated with them have never been more important to organizations than today,” said Umesh Sachdev, CEO and Co-founder of Uniphore. “We know that every $1 invested in EQ results in $6 in sales. In developing Q for Sales, we took our experience developing the industry’s most powerful conversational AI and automation platform to create a solution that now measures real-time EQ, complete with analytics to supercharge sales teams. With Q for Sales, sales organizations will no longer be in the dark on what drives success and closes deals.”
+“Emotions have always played a major role in sales,” said Sylvain Tremblay, SVP, Video AI Business, Uniphore. “Everyone has heard the expressions ‘read the room’ and ‘people buy from people they trust’ which get lost in today’s remote engagements. Q for Sales augments the sellers’ ability to capture these cues so they can focus on what really matters to their customers and transform their buying experience. This is the solution that teams will rely on to humanize their interactions resulting in a win-win for both sides.”
+Main features and benefits of Q for Sales include:
+Real-Time EQ Meeting Assist
+Real-Time Emotion AI assistant to help sellers “read the room,” sense emotional cues, and improve engagement during virtual meetings
+Meeting EQ
+Meeting playbacks, contextual key moments, engagement & sentiment trends for all 	members of your meeting.
+Deal EQ
+Opportunity level insights, customer sentiment & engagement timelines, and key moments from first meeting to closed-won.
+Key Moments
+Provides real-time analytics that show highlights and low lights in the conversation — moments of peak and weak audience engagement so the presenter can self correct.
+Team EQ + Improve
+Personal EQ Performance Dashboard for Self-Coaching and onboarding to improve ramp time. Q 	provides sellers measurable EQ performance analytics, conversation statistics, and a post-	meeting analysis and next best actions on every meeting.
+Integrations
+Works seamlessly with major virtual meeting platforms, CRMs and calendar platforms.
+“The substantive volume of digital interactions from conversations provides a unique opportunity for organizations to be more effective and provide better experiences for their buyers and customers using contextual digital intelligence for conversational insights,” said Mark Smith, CEO and Chief Research Officer at Ventana Research. “With Q for Sales, Uniphore introduces next-generation digital innovation that helps sales organizations be more impactful in the selling process by adapting to emotional queues of buyers from video, and inevitably for the broader enterprise and organizational readiness.”
+Availability
+Q for Sales is available immediately to qualifying organizations in beta first in North America and then in expanded regions around the world. It is expected to be generally available in late Summer/Fall 2022.
