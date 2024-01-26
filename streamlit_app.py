@@ -150,7 +150,7 @@ def vectorize_text(uploaded_files):
                 docs.extend(loader.load())
 
                 vectorstore.add_documents(docs)
-                st.info(f"{len(docs)} {lang_dict['load_text']}")
+                st.info(f"{len(docs)} {lang_dict['load_csv']}")
 
 # Load data from URLs
 def vectorize_url(urls):
@@ -309,7 +309,7 @@ def describeImage(image_bin, language):
 def load_localization(locale):
     print("load_localization")
     # Load in the text bundle and filter by language locale
-    df = pd.read_csv("localization.csv")
+    df = pd.read_csv("./customizations/localization.csv")
     df = df.query(f"locale == '{locale}'")
     # Create and return a dictionary of key/values.
     lang_dict = {df.key.to_list()[i]:df.value.to_list()[i] for i in range(len(df.key.to_list()))}
@@ -320,7 +320,7 @@ def load_localization(locale):
 def load_rails(username):
     print("load_rails")
     # Load in the rails bundle and filter by username
-    df = pd.read_csv("rails.csv")
+    df = pd.read_csv("./customizations/rails.csv")
     df = df.query(f"username == '{username}'")
     # Create and return a dictionary of key/values.
     rails_dict = {df.key.to_list()[i]:df.value.to_list()[i] for i in range(len(df.key.to_list()))}
@@ -383,22 +383,24 @@ if 'messages' not in st.session_state:
 ### Main ###
 ############
 
-# Write the welcome text
+# Show a custom welcome text or the default text
 try:
-    st.markdown(Path(f"""{username}.md""").read_text())
+    st.markdown(Path(f"""./customizations/welcome/{username}.md""").read_text())
 except:
-    st.markdown(Path('welcome.md').read_text())
+    st.markdown(Path('./customizations/welcome/default.md').read_text())
 
-logo_file_name = './assets/' + username + '-logo.svg'
-
-# DataStax logo
+# Show a custom logo (svg or png) or the DataStax logo
 with st.sidebar:
     try:
-        st.image(logo_file_name, use_column_width="always")
+        st.image(f"""./customizations/logo/{username}.svg""", use_column_width="always")
         st.text('')
     except:
-        st.image('./assets/datastax-logo.svg', use_column_width="always")
-        st.text('')
+        try:
+            st.image(f"""./customizations/logo/{username}.png""", use_column_width="always")
+            st.text('')
+        except:
+            st.image('./customizations/logo/default.svg', use_column_width="always")
+            st.text('')
 
 # Logout button
 with st.sidebar:
@@ -419,26 +421,27 @@ with st.sidebar:
 
 # Options panel
 with st.sidebar:
-    disable_chat_history = st.toggle('Disable Chat History')
-    top_k_history = st.slider('K for Chat History', 1, 50, 5, disabled=disable_chat_history)
+    # Chat history settings
+    disable_chat_history = st.toggle(lang_dict['disable_chat_history'])
+    top_k_history = st.slider(lang_dict['k_chat_history'], 1, 50, 5, disabled=disable_chat_history)
     memory = load_memory(top_k_history if not disable_chat_history else 0)
-    delete_history = st.button(lang_dict['delete_memory_button'], disabled=disable_chat_history)
+    delete_history = st.button(lang_dict['delete_chat_history_button'], disabled=disable_chat_history)
     if delete_history:
-        memory.clear()
-    disable_vector_store = st.toggle('Disable Vector Store')
-    top_k_vectorstore = st.slider('Top-K for Vector Store', 1, 50, 5, disabled=disable_vector_store)
-    #chain_type = st.selectbox('Chain type:', ('Stuff', 'Refine', 'Map Reduce'), disabled=disable_vector_store)
-    chain_type = "Stuff"
-    strategy = st.selectbox('RAG strategy:', ('Basic Retrieval', 'Maximal Marginal Relevance', 'Fusion'), help="Basic retrieval finds the most relevant document with potential duplicate information.\nMMR ensures a balance between relevancy and diversity in the items retrieved.\n Fusion generates a set of additional relevant queries to retrieve relevant documents.", disabled=disable_vector_store)
-    prompt_type = st.selectbox('System Prompt:', ('Short results', 'Extended results', 'Custom'))
-    print(f"""{disable_vector_store}, {top_k_history}, {top_k_vectorstore}, {chain_type}, {strategy}, {prompt_type}""")
-    custom_prompt = st.text_area('Custom Prompt:', """You're a Code Co-Pilot who helps users write amazing code. Using the context, provide examples in markdown and explain how it all ties together.
+        with st.spinner(lang_dict['deleting_chat_history']):
+            memory.clear()
+    # Vector store settings
+    disable_vector_store = st.toggle(lang_dict['disable_vector_store'])
+    top_k_vectorstore = st.slider(lang_dict['top_k_vector_store'], 1, 50, 5, disabled=disable_vector_store)
+    strategy = st.selectbox(lang_dict['rag_strategy'], ('Basic Retrieval', 'Maximal Marginal Relevance', 'Fusion'), help=lang_dict['rag_strategy_help'], disabled=disable_vector_store)
+    prompt_type = st.selectbox(lang_dict['system_prompt'], ('Short results', 'Extended results', 'Custom'))
+    print(f"""{disable_vector_store}, {top_k_history}, {top_k_vectorstore}, {strategy}, {prompt_type}""")
+    custom_prompt = st.text_area(lang_dict['custom_prompt'], """You're a Code Co-Pilot who helps users write amazing code. Using the context, provide examples in markdown and explain how it all ties together.
 
 Use the following context:
 {context}
 
 Question:
-{question}""", help="You can use the following placeholders: {question}, {context}, {chat_history}", disabled=(prompt_type != 'Custom'))
+{question}""", help=lang_dict['custom_prompt_help'], disabled=(prompt_type != 'Custom'))
 
 with st.sidebar:
     st.divider()
@@ -452,9 +455,9 @@ with st.sidebar:
 
 # Include the upload form for URLs be Vectorized
 with st.sidebar:
-    urls = st.text_area('Load data from URL(s):', help="Please comma-divide multiple URLs")
+    urls = st.text_area(lang_dict['load_from_urls'], help=lang_dict['load_from_urls_help'])
     urls = urls.split(',')
-    upload = st.button('Load Web Data')
+    upload = st.button(lang_dict['load_from_urls_button'])
     if upload and urls:
         vectorize_url(urls)
 
@@ -487,7 +490,7 @@ for message in st.session_state.messages:
 question = st.chat_input(lang_dict['assistant_question'])
 with st.sidebar:
     st.divider()
-    picture = st.camera_input("Take a picture")
+    picture = st.camera_input(lang_dict['take_picture'])
     if picture:
         response = describeImage(picture.getvalue(), language)
         picture_desc = response.choices[0].message.content
@@ -505,7 +508,7 @@ if question:
         st.markdown(question)
 
     # Get model, retriever
-    model = load_model(chain_type)
+    model = load_model()
     retriever = load_retriever(top_k_vectorstore)
 
     # RAG Strategy
@@ -526,7 +529,7 @@ if question:
 
             content += f"""
     
-*Using the following queries based on your prompt according to the Fusion Strategy:*  
+*{lang_dict['using_fusion_queries']}*  
 """
             for fq in fusion_queries:
                 content += f"""📙 :orange[{fq}]  
@@ -575,9 +578,9 @@ if question:
 
         # Write the sources used
         if disable_vector_store:
-            content += """
+            content += f"""
             
-*No additional context was used as the Vector Store is disabled*
+*{lang_dict['no_context']}*
 """
         else:
             content += f"""
@@ -598,14 +601,14 @@ if question:
 
         # Write the history used
         if disable_chat_history:
-            content += """
+            content += f"""
             
-*No Chat History was used as this option is disabled.*
+*{lang_dict['no_chat_history']}*
 """
         else:
             content += f"""
 
-*The last {int(len(history['chat_history'])/2)} of {top_k_history} messages from the Chat History have been used to construct this response.*
+*{lang_dict['chat_history_used']}: ({int(len(history['chat_history'])/2)} / {top_k_history})*
 """
 
         # Write the final answer without the cursor

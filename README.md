@@ -1,7 +1,7 @@
 # Leave-behind Enterprise Sidekick
 This Enterprise Sidekick is build specifically as a multi-tenant, reusable and configurable sample app to share with enterprises or prospects. It focusses on the interaction between the [Astra DB Vector Store](https://db.new) and the Foundational Large Language Model as *your* data is the only thing that provides a [*Sustainable Competitive Advantage*](https://datastax.medium.com/with-generative-ai-context-is-king-7a1469942044).
 
-![Chatbot](./assets/chatbot.png)
+![Chatbot](.assets/chatbot.png)
 
 ## Architecture
 
@@ -35,10 +35,11 @@ This Enterprise Sidekick is build specifically as a multi-tenant, reusable and c
 3. It uses a StreamingCallbackHandler to stream output to the screen which prevents having to wait for the final answer
 
 ## Multi Tenancy
-Specifically for multi-tenancy and configurability:
-1. It offers a configurable localization through `localization.csv` with default languages of us_US and nl_NL.
-2. It offers a guided experience on-rails through `rails.csv`
-3. It offers a customizable `welcome page` for a specific organization
+Specifically for multi-tenancy and configurability the app offers:
+1. A configurable localization through `/customizations/localization.csv` with default languages of us_US and nl_NL.
+2. A guided experience on-rails through `/customizations/rails.csv`
+3. A customizable `welcome page` in `/customizations/welcome` for a specific organization
+4. A customizable logo in `/customizations/logo` for a specific organization
 
 ## 1️⃣ Preparations
 This Chatbot assumes you have access to a [Github account](https://github.com).
@@ -51,15 +52,14 @@ And you need to gain access to the following by signing up for free:
 Follow the below steps and provide the **Astra DB API Endpoint**, **Astra DB ApplicationToken** and **OpenAI API Key** when required.
 
 ### Sign up for Astra DB
-Make sure you have a vector-capable Astra database (get one for free at [astra.datastax.com](https://astra.datastax.com))
-- Make sure you have the new vector native experience enabled:
-
+Make sure you have a **vector-enabled** Astra database (get one for free at [astra.datastax.com](https://astra.datastax.com))
 - You will be asked to provide the **API Endpoint** which can be found in the right pane underneath *Database details*.
 - Ensure you have an **Application Token** for your database which can be created in the right pane underneath *Database details*.
 
 ### Sign up for OpenAI
 - Create an [OpenAI account](https://platform.openai.com/signup) or [sign in](https://platform.openai.com/login).
 - Navigate to the [API key page](https://platform.openai.com/account/api-keys) and create a new **Secret Key**, optionally naming the key.
+- You may need to provide credit card details and deploy a sum of money on your account. Especially in order to the the GPT4 model.
 
 ### Sign up for Streamlit
 Follow the steps outlined [here](https://docs.streamlit.io/streamlit-community-cloud/get-started/quickstart).
@@ -71,25 +71,53 @@ pip3 install -r requirements.txt
 ```
 
 ### Set up the secrets
-Then update the `OpenAI`, `AstraDB` and optionally `LangSmith` secrets in `streamlit-langchain/.streamlit/secrets.toml`. There is an example provided at `secrets.toml.example`.
+Then update the `OpenAI`, `AstraDB` and optionally `LangSmith` secrets in `/.streamlit/secrets.toml`. There is an example provided at `secrets.toml.example`.
 
-## 2️⃣ Customization
+## 2️⃣ Customizations
 Now it's time to customize the app for your specific situation or customers.
 ### Step 1
-Define credentials by adding a new username and password in the `[passwords]` section in `streamlit-langchain/.streamlit/secrets.toml`.
+Define credentials by adding a new username and password in the `[passwords]` section in `/.streamlit/secrets.toml`. Use the following convention:
+```toml
+[passwords]
+the_username_for_the_user = "the password for the user"
+```
 ### Step 2
-Define the UI language of the app by adding a localization code in the `[languages]` section in `streamlit-langchain/.streamlit/secrets.toml`. Currently `en_US` and `nl_NL` are supported. However it is easy to add additional languages in `localization.csv`.
+Define the UI language of the app by adding a localization code in the `[languages]` section in `/.streamlit/secrets.toml`. Use the following convention:
+```toml
+[languages]
+the_username_for_the_user = "the language definition"
+```
+Currently `en_US`, `nl_NL` and `ro_RO` are supported. However it is easy to add additional languages in `/customizations/localization.csv`.
 ### Step 3
-Create a guided experience by providing sample prompts in `rails.csv`. The convention here is that `<username>` from Step 1 is used to define the experience.
+Create a customized welcome page in `/customizations/welcome`. The convention here is to create a markdown file called `<username>.md`. Ideally, list which files have been pre-loaded from step 6.
+In case no custom welcome page is provided, the app uses `default.md`.
 ### Step 4
-Start up the app and pre-load relevant PDF and Text files so that the app has content that can be used as context for the questions/prompts in the next step. All this data will be loaded into a user specific table defined by `<username>`.
+Create a customized logo in `/customizations/logo`. The convention here is to create an image file called `<username>.svg` or `<username>.png`.
+In case no custom logo is provided, the app uses `default.svg`.
 ### Step 5
-Create a customized welcome page in the root folder. The convention here is to create a markdown file called `<username>.md`. Ideally, list which files have been pre-loaded.
+Create a guided experience by providing sample prompts in `rails.csv`. The convention here is that `<username>` from Step 1 is used to define the experience. Use the following convention:
+```csv
+username,key,value
+the_username_for_the_user, 1, Question prompt number 1
+the_username_for_the_user, 2, Question prompt number 2
+another_username_for_another_user, 1, Question prompt number 1
+another_username_for_another_user, 2, Question prompt number 2
+```
+### Step 6
+Enable or disable the option in the app to delete all the context once loaded. Use the following convention:
+```toml
+[delete_option]
+the_username_for_the_user = "True"
+```
+In case the above is not provides, the app will default to not enabling deleting content and their vector embeddings.
+### Step 7
+Start up the app and pre-load relevant PDF and Text files so that the app has content that can be used as context for the questions/prompts in the next step. All this data will be loaded into a user specific collection in Astra DB defined by `<username>`.
+
 
 ## 3️⃣ Getting started
 You're ready to run the app as follows:
 ```
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 In addition to the pre-loaded content, a user can add additional content that will be used as context for prompts.
 
@@ -101,19 +129,19 @@ If you have not do so before, please set up your account on Streamlit. When you 
 
 1. Head over to [Streamlit.io](https://streamlit.io) and clikc `Sign up`. Then select `Continue with Github`:
 
-    ![Streamlit](./assets/streamlit-0.png)
+    ![Streamlit](.assets/streamlit-0.png)
 
 2. Log in using your Github credentials:
 
-    ![Streamlit](./assets/streamlit-1.png)
+    ![Streamlit](.assets/streamlit-1.png)
 
 3. Now authorize Streamlit:
 
-    ![Streamlit](./assets/streamlit-2.png)
+    ![Streamlit](.assets/streamlit-2.png)
 
 4. And set up your account:
 
-    ![Streamlit](./assets/streamlit-3.png)
+    ![Streamlit](.assets/streamlit-3.png)
 
 ### Deploy your app
 
@@ -121,11 +149,11 @@ On the main screen, when logged in, click `New app`.
 
 1. When this is your first deployment, provide additional permissions:
 
-    ![Streamlit](./assets/streamlit-4.png)
+    ![Streamlit](.assets/streamlit-4.png)
 
 2. Now define your application settings. Use YOUR repository name, and name the Main file path as `app_7.py`. Pick a cool App URL as you'll app will be deployed to that:
 
-    ![Streamlit](./assets/streamlit-5.png)
+    ![Streamlit](.assets/streamlit-5.png)
 
 3. Click on Advanced, select Python 3.11 and copy-paste the contents from your `secrets.toml`.
 
@@ -141,8 +169,11 @@ python3 -m venv myenv
 ```
 Then activate it as follows:
 ```
-source myenv/bin/activate   # on Linux/Mac
-myenv\Scripts\activate.bat  # on Windows
+# on Linux/Mac:
+source myenv/bin/activate
+
+# on Windows:
+myenv\Scripts\activate.bat
 ```
 Now you can start installing packages:
 ```
