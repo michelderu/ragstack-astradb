@@ -45,3 +45,26 @@ nl_NL,rails_2,(kopieer en plak in de chat)
 nl_NL,logout_caption,Welkom! Ingelogd als gebruiker
 nl_NL,logout_button,Uitloggen
 nl_NL,sources_used,De volgende context werd opgehaald uit de Vector Database:
+ro_RO,connect_astra,Se stabilește conexiunea cu Astra DB...
+ro_RO,load_embedding,Se obține embedding-ul OpenAI...
+ro_RO,load_vectorstore,Se obține magazinul de vectori din Astra DB...
+ro_RO,load_retriever,Se obține recuperatorul...
+ro_RO,load_message_history,Se obține istoricul mesajelor din Astra DB...
+ro_RO,load_model,Se obține modelul de chat OpenAI...
+ro_RO,load_context,Încărcați un document pentru context suplimentar
+ro_RO,load_context_button,Încărcați documente
+ro_RO,delete_context,"Ștergeți contextul, istoria și începeți de la capăt. Acest lucru șterge încorporările vectoriale pentru TOȚI utilizatorii!"
+ro_RO,delete_context_button,Ștergeți contextul
+ro_RO,deleting_context,Se elimină contextul și se inițializează...
+ro_RO,deleting_memory,Se elimină memoria...
+ro_RO,delete_memory_button,Ștergeți istoricul conversațiilor
+ro_RO,assistant_welcome,"Bună, sunt asistentul tău personal și sunt gata să ajut!"
+ro_RO,assistant_question,Ce este nou?
+ro_RO,load_text,chuncks încărcate în Astra DB
+ro_RO,load_pdf,pagini încărcate în Astra DB
+ro_RO,assistant_leadin,Tipărește de exemplu:
+ro_RO,rails_1,🤩 Încercați următoarele prompturi ⬇️
+ro_RO,rails_2,(copiați și lipiți în caseta de chat)
+ro_RO,logout_caption,Bun venit! Autentificat ca utilizator
+ro_RO,logout_button,Deconectare
+ro_RO,sources_used,Contextul următor a fost recuperat din baza de date Vector:
