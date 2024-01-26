@@ -52,6 +52,8 @@ Follow the below steps and provide the **Astra DB API Endpoint**, **Astra DB App
 
 ### Sign up for Astra DB
 Make sure you have a vector-capable Astra database (get one for free at [astra.datastax.com](https://astra.datastax.com))
+- Make sure you have the new vector native experience enabled:
+
 - You will be asked to provide the **API Endpoint** which can be found in the right pane underneath *Database details*.
 - Ensure you have an **Application Token** for your database which can be created in the right pane underneath *Database details*.
 

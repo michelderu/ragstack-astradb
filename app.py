@@ -115,6 +115,7 @@ def vectorize_text(uploaded_files):
             with open(temp_filepath, 'wb') as f:
                 f.write(file.getvalue())
 
+            # Process TXT
             if uploaded_file.name.endswith('txt'):
                 file = [uploaded_file.read().decode()]
 
@@ -126,9 +127,9 @@ def vectorize_text(uploaded_files):
                 texts = text_splitter.create_documents(file, [{'source': uploaded_file.name}])
                 vectorstore.add_documents(texts)
                 st.info(f"{len(texts)} {lang_dict['load_text']}")
-
+            
+            # Process PDF
             if uploaded_file.name.endswith('pdf'):
-                # Read PDF
                 docs = []
                 loader = PyPDFLoader(temp_filepath)
                 docs.extend(loader.load())
@@ -142,6 +143,7 @@ def vectorize_text(uploaded_files):
                 vectorstore.add_documents(pages)  
                 st.info(f"{len(pages)} {lang_dict['load_pdf']}")
 
+            # Process CSV
             if uploaded_file.name.endswith('csv'):
                 docs = []
                 loader = CSVLoader(temp_filepath)
@@ -216,14 +218,8 @@ Answer in {language}:"""
     return ChatPromptTemplate.from_messages([("system", template)])
 
 # Get the OpenAI Chat Model
-def load_model(chain_type):
-    if chain_type == 'Stuff':
-        chain_type = 'stuff'
-    if chain_type == 'Refine':
-        chain_type = 'refine'
-    if chain_type == 'Map Reduce':
-        chain_type = 'map_reduce'
-    print(f"""load_model using {chain_type}""")
+def load_model():
+    print(f"""load_model""")
     # Get the OpenAI Chat Model
     return ChatOpenAI(
         temperature=0.3,
@@ -242,7 +238,7 @@ def load_retriever(top_k_vectorstore):
 
 @st.cache_resource()
 def load_memory(top_k_history):
-    print(f"""load_memory with top-k = {top_k_history}""")
+    print(f"""load_memory with top-k={top_k_history}""")
     return ConversationBufferWindowMemory(
         chat_memory=chat_history,
         return_messages=True,
