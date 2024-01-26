@@ -111,6 +111,10 @@ the_username_for_the_user = "True"
 ```
 In case the above is not provides, the app will default to not enabling deleting content and their vector embeddings.
 ### Step 7
+You have the option of defining a default prompt in `/customizations/prompt`. The convention here is to create a markdown file called `<username>.txt`.
+In case no prompt is provided, the app uses `default.txt` and the app will default to using the 'Short results' prompt.
+In case you provide a custom prompt for the user, the app will default to using that on startup.
+### Step 8
 Start up the app and pre-load relevant PDF and Text files so that the app has content that can be used as context for the questions/prompts in the next step. All this data will be loaded into a user specific collection in Astra DB defined by `<username>`.
 
 
