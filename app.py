@@ -393,10 +393,16 @@ try:
 except:
     st.markdown(Path('welcome.md').read_text())
 
+logo_file_name = './assets/' + username + '-logo.svg'
+
 # DataStax logo
 with st.sidebar:
-    st.image('./assets/datastax-logo.svg')
-    st.text('')
+    try:
+        st.image(logo_file_name, use_column_width="always")
+        st.text('')
+    except:
+        st.image('./assets/datastax-logo.svg', use_column_width="always")
+        st.text('')
 
 # Logout button
 with st.sidebar:
