@@ -433,15 +433,19 @@ with st.sidebar:
     disable_vector_store = st.toggle(lang_dict['disable_vector_store'])
     top_k_vectorstore = st.slider(lang_dict['top_k_vector_store'], 1, 50, 5, disabled=disable_vector_store)
     strategy = st.selectbox(lang_dict['rag_strategy'], ('Basic Retrieval', 'Maximal Marginal Relevance', 'Fusion'), help=lang_dict['rag_strategy_help'], disabled=disable_vector_store)
-    prompt_type = st.selectbox(lang_dict['system_prompt'], ('Short results', 'Extended results', 'Custom'))
+
+    custom_prompt_text = ''
+    custom_prompt_index = 0
+    try:
+        custom_prompt_text = open(f"""./customizations/prompt/{username}.txt""").read()
+        custom_prompt_index = 2
+    except:
+        custom_prompt_text = open(f"""./customizations/prompt/default.txt""").read()
+        custom_prompt_index = 0
+
+    prompt_type = st.selectbox(lang_dict['system_prompt'], ('Short results', 'Extended results', 'Custom'), index=custom_prompt_index)
+    custom_prompt = st.text_area(lang_dict['custom_prompt'], custom_prompt_text, help=lang_dict['custom_prompt_help'], disabled=(prompt_type != 'Custom'))
     print(f"""{disable_vector_store}, {top_k_history}, {top_k_vectorstore}, {strategy}, {prompt_type}""")
-    custom_prompt = st.text_area(lang_dict['custom_prompt'], """You're a Code Co-Pilot who helps users write amazing code. Using the context, provide examples in markdown and explain how it all ties together.
-
-Use the following context:
-{context}
-
-Question:
-{question}""", help=lang_dict['custom_prompt_help'], disabled=(prompt_type != 'Custom'))
 
 with st.sidebar:
     st.divider()
