@@ -34,7 +34,7 @@ This Enterprise Sidekick is build specifically as a multi-tenant, reusable and c
 
 3. It uses a StreamingCallbackHandler to stream output to the screen which prevents having to wait for the final answer
 
-## Multi Tenancy
+## Multi tenancy and customizations
 Specifically for multi-tenancy and configurability the app offers:
 1. A configurable localization through `/customizations/localization.csv` with default languages of us_US and nl_NL.
 2. A guided experience on-rails through `/customizations/rails.csv`
@@ -151,11 +151,11 @@ On the main screen, when logged in, click `New app`.
 
     ![Streamlit](.assets/streamlit-4.png)
 
-2. Now define your application settings. Use YOUR repository name, and name the Main file path as `app_7.py`. Pick a cool App URL as you'll app will be deployed to that:
+2. Now define your application settings. Use YOUR repository name, and make sure the Main file path is `streamlit_app.py`. Pick a cool App URL as you'll app will be deployed to that:
 
     ![Streamlit](.assets/streamlit-5.png)
 
-3. Click on Advanced, select Python 3.11 and copy-paste the contents from your `secrets.toml`.
+3. Click on Advanced, select `Python 3.11` and copy-paste the contents from your `secrets.toml` or define them here for the first time (see step 1).
 
 Click Deploy! Wait for a bit and your app is online for everyone to use!
 
