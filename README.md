@@ -98,10 +98,10 @@ In case no custom logo is provided, the app uses `default.svg`.
 Create a guided experience by providing sample prompts in `rails.csv`. The convention here is that `<username>` from Step 1 is used to define the experience. Use the following convention:
 ```csv
 username,key,value
-the_username_for_the_user, 1, Question prompt number 1
-the_username_for_the_user, 2, Question prompt number 2
-another_username_for_another_user, 1, Question prompt number 1
-another_username_for_another_user, 2, Question prompt number 2
+the_username_for_the_user,1,Question prompt number 1
+the_username_for_the_user,2,Question prompt number 2
+another_username_for_another_user,1,Question prompt number 1
+another_username_for_another_user,2,Question prompt number 2
 ```
 ### Step 6
 Enable or disable the option in the app to delete all the context once loaded. Use the following convention:
@@ -111,7 +111,7 @@ the_username_for_the_user = "True"
 ```
 In case the above is not provides, the app will default to not enabling deleting content and their vector embeddings.
 ### Step 7
-You have the option of defining a default prompt in `/customizations/prompt`. The convention here is to create a markdown file called `<username>.txt`.
+You have the option of defining a default prompt in `/customizations/prompt`. The convention here is to create a text file called `<username>.txt`.
 In case no prompt is provided, the app uses `default.txt` and the app will default to using the 'Short results' prompt.
 In case you provide a custom prompt for the user, the app will default to using that on startup.
 ### Step 8
