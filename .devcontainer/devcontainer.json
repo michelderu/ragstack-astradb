@@ -1,6 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.209.6/containers/python-3
 {
+	// Faster than using Pulsar as a feature...
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11-bullseye",
 	"customizations": {
 		"codespaces": {
