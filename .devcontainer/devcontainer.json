@@ -1,21 +1,6 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.209.6/containers/python-3
 {
-	"image": "mcr.microsoft.com/devcontainers/python:0-3.11-bullseye",
-	"customizations": {
-		"codespaces": {
-			"openFiles": [
-				"README.md"
-			]
-		},
-		"vscode": {
-			"settings": {},
-			"extensions": [
-				"ms-python.python",
-				"ms-python.vscode-pylance"
-			]
-		}
-	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		8501
@@ -38,6 +23,9 @@
 	"remoteUser": "vscode",
 	"features": {
 		// Optional features for development - increase container boot time!
+		"ghcr.io/devcontainers/features/python:1": {
+			"version": "3.10"
+		}
 		// "ghcr.io/devcontainers-contrib/features/coverage-py:2": {},
 		// "git": "latest",
 		// "github-cli": "latest"
