@@ -168,8 +168,8 @@ def vectorize_url(urls):
             print (f"Loading from URL: {pages}")
             vectorstore.add_documents(pages)  
             st.info(f"{len(pages)} loaded")
-        except:
-            st.info(f"An error occurred", )
+        except Exception as e:
+            st.info(f"An error occurred:", e)
 
 # Define the prompt
 def get_prompt(type):
@@ -352,7 +352,7 @@ def load_embedding():
 # Cache Vector Store for future runs
 @st.cache_resource(show_spinner=lang_dict['load_vectorstore'])
 def load_vectorstore(username):
-    print("load_vectorstore")
+    print(f"load_vectorstore for {username}")
     # Get the load_vectorstore store from Astra DB
     return AstraDB(
         embedding=embedding,
